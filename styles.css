@@ -1,0 +1,48 @@
+.navbar-brand {
+    color: aliceblue;
+}
+td {
+    border-style:groove;
+    border-right: solid 1px;
+    border-left: solid 1px;
+    text-align: center;
+    vertical-align:middle;
+    position: relative;
+    width: 33.33%;
+    height:0;
+    font-size: 4vw;
+}
+tr {
+    border-style: groove;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    position: relative;
+    height:9vw;
+}
+td:hover {
+    background-color: darkgray;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    height:0;
+}
+.col-sm-4 {
+    margin-left:10px;
+    margin-right:10px;
+}
+#turn {
+    text-align: center;
+    color:brown;
+}
+#winner-banner {
+    text-align: center;
+    vertical-align:bottom;
+}
+#restart {
+    margin:0 auto;
+    display:block;
+}
+.row {
+    margin-top: 5px;
+}
